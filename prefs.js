@@ -45,6 +45,7 @@ var PreferencesDialog = class PreferencesDialog {
 
     // New effects must be registered here and in extension.js.
     this._ALL_EFFECTS = [
+      new Me.imports.src.effects.SimpleFade.SimpleFade(),
       new Me.imports.src.effects.Apparition.Apparition(),
       new Me.imports.src.effects.BrokenGlass.BrokenGlass(),
       new Me.imports.src.effects.Doom.Doom(),
